@@ -100,6 +100,7 @@ It combines:
 ## File Structure
 <details>
 <strong>
+```plaintext
 nea-idea-generator/
 │
 ├── app.py
@@ -129,6 +130,7 @@ nea-idea-generator/
     ├── dashboard.html
     ├── questionnaire.html
     └── generator.html
+```
 </strong>
 </details>
 
