@@ -97,6 +97,42 @@ It combines:
 
 ---
 
+## File Structure
+<details>
+<summary><strong>
+nea-idea-generator/
+│
+├── app.py
+├── config.py
+├── models.py
+│
+├── routes/
+│   ├── auth_routes.py
+│   ├── user_routes.py
+│   ├── generator_routes.py
+│
+├── services/
+│   ├── auth_service.py
+│   ├── scoring_service.py
+│   ├── generator_service.py
+│
+├── utils/
+│   ├── validators.py
+│   ├── security.py
+│
+├── data/
+│   └── users.json
+│
+└── templates/
+    ├── index.html
+    ├── login.html
+    ├── dashboard.html
+    ├── questionnaire.html
+    └── generator.html
+</summary></strong>
+</details>
+
+---
 ## Architecture
 
 The system follows a structured pipeline:
