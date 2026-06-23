@@ -99,7 +99,7 @@ It combines:
 
 ## File Structure
 <details>
-<summary><strong>
+<strong>
 nea-idea-generator/
 │
 ├── app.py
@@ -129,7 +129,7 @@ nea-idea-generator/
     ├── dashboard.html
     ├── questionnaire.html
     └── generator.html
-</summary></strong>
+</strong>
 </details>
 
 ---
