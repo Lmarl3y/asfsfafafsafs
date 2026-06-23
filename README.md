@@ -98,8 +98,10 @@ It combines:
 ---
 
 ## File Structure
+
 <details>
-<strong>
+<summary><strong>View project structure</strong></summary>
+
 ```plaintext
 nea-idea-generator/
 │
@@ -131,7 +133,6 @@ nea-idea-generator/
     ├── questionnaire.html
     └── generator.html
 ```
-</strong>
 </details>
 
 ---
