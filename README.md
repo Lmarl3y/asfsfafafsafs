@@ -1,68 +1,174 @@
-# **IDEA**
+<div align="center">
 
-## NEA Idea Generator, tailored to the user's personal opinions, interests, and talent.
+# NEA Idea Generator
 
-# **FEATURES**
+![Status](https://img.shields.io/badge/status-in%20development-blue)
+![AQA NEA](https://img.shields.io/badge/AQA-NEA%20Project-darkgreen)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-- High-End Graphical User Interface, hosted online.
-- Login & Signup system with full encryption and security
-- Captcha verification; 2FA via email, and google OTP authenticator
-- Personality questionaire
-- Uses AI to generate a set of potential NEA project ideas based on user profile and prompts
-- Uses custom scoring and ranking algorithms to filter and select the most suitable idea from generated options
+A personalised system that helps A-Level Computer Science students generate NEA project ideas based on their interests, ability, and preferences.
+
+</div>
 
 ---
 
-# **PAGES**
+## Overview
 
-- Index
+The NEA Idea Generator is a web-based system designed to help students produce suitable NEA project ideas through structured profiling, AI-assisted generation, and custom ranking algorithms.
 
-  - main page
-  - Shows what the product is, does, and how it'll help A-Level computer science students when creating NEA's
+It combines:
+- User profiling via questionnaires
+- AI-generated idea candidates
+- Deterministic scoring and ranking logic
 
-- Login/Signup
+---
 
-  - Allows the user to create or sign in to the account
-  - Will utilise captcha to prevent bot accounts and/or bruteforcing//hacks
-  - Will allow google login, require email, and will give users the option to enable 2FA (email verification or via an authenticator app)
+## Features
 
-- Questionaire
+- Secure authentication system (login & signup)
+- Password encryption and session handling
+- CAPTCHA protection and optional 2FA
+- Personalised questionnaire system
+- AI-assisted idea generation
+- Custom scoring and ranking algorithm
+- Dynamic recommendation system based on user profile
+- Editable user data dashboard
 
-  - the inital questionaire upon account creation
-  - will ask a series of questions pertaining to the user, what they enjoy, hobbies, programming level, predicted grades, etc
-  - Their personal statement, a way to get to know the user better (optional)
-  - then redirect to the dashboard
+---
 
-- Dashboard
+## Pages
 
-  - Shows user's info
-  - Their answers to their questions
-  - Ability to update answers/personal statement
+<details>
+<summary><strong>Index</strong></summary>
 
-- Generator
+- Landing page for the system  
+- Explains purpose and functionality  
+- Designed for A-Level Computer Science NEA support  
 
-  - Uses AI to generate a pool of possible NEA project ideas based on user information and prompts
-  - System parses and structures AI-generated ideas into usable data
-  - Uses custom scoring and weighting algorithm to rank ideas based on user profile
-  - Filters and narrows down results to the most suitable idea(s)
-  - Allows prompts, so results can be refined further by the user
+</details>
 
-# **CHECKLIST**
+<details>
+<summary><strong>Login / Signup</strong></summary>
 
-- Clear modular design using functions/procedures
-- Appropriate use of classes (OOP where suitable)
-- Use of selection (if / elif / else)
-- Use of iteration (for / while loops)
-- Use of robust input validation
-- Use of error handling (try/except or equivalent)
-- Use of appropriate data structures (lists, dictionaries, etc.)
-- Use of nested data structures where appropriate
-- File handling for persistent storage (save/load/update data)
-- Clear separation of input, processing, and output
-- Evidence of algorithmic complexity (not just simple CRUD)
-- At least one meaningful algorithm (e.g. scoring, searching, filtering, ranking)
-- Program demonstrates problem decomposition (broken into manageable parts)
-- Code is maintainable and logically structured
-- User state management (e.g. login/session tracking if applicable)
-- Demonstrates processing of real data (not just static inputs/outputs)
-- System produces non-trivial outputs based on user input/data processing
+- User registration and authentication system  
+- CAPTCHA protection against bots and brute force attempts  
+- Optional Google login integration  
+- Email-based account requirement  
+- Optional two-factor authentication (email / authenticator app)  
+
+</details>
+
+<details>
+<summary><strong>Questionnaire</strong></summary>
+
+- Initial onboarding flow  
+- Collects structured user data:
+  - Interests  
+  - Programming ability  
+  - Hobbies  
+  - Predicted grades  
+  - Optional personal statement  
+- Stores responses for later processing  
+- Redirects to dashboard after completion  
+
+</details>
+
+<details>
+<summary><strong>Dashboard</strong></summary>
+
+- Displays user profile information  
+- Shows questionnaire responses  
+- Allows editing and updating of stored data  
+- Acts as central navigation hub  
+
+</details>
+
+<details>
+<summary><strong>Generator</strong></summary>
+
+- Generates multiple NEA project ideas using AI  
+- Parses AI output into structured data format  
+- Applies custom scoring and weighting algorithm  
+- Ranks and filters results to select best match  
+- Supports prompt-based refinement of results  
+- Outputs explainable recommendations  
+
+</details>
+
+---
+
+## Architecture
+
+The system follows a structured pipeline:
+
+1. User profile creation (questionnaire)
+2. Data storage and retrieval
+3. AI-assisted idea generation
+4. Parsing and structuring of generated ideas
+5. Scoring and ranking algorithm
+6. Recommendation output
+
+---
+
+## AQA NEA Compliance Checklist
+
+<details>
+<summary><strong>Core Programming Requirements</strong></summary>
+
+- Modular design using functions/procedures  
+- Use of classes where appropriate (OOP)  
+- Selection (if / elif / else logic)  
+- Iteration (for / while loops)  
+- Input validation and sanitisation  
+- Error handling (try / except or equivalent)  
+- Appropriate data structures (lists, dictionaries, etc.)  
+- Nested data structures where appropriate  
+
+</details>
+
+<details>
+<summary><strong>Data & Storage</strong></summary>
+
+- File handling for persistent storage (save/load/update)  
+- Structured storage of user profiles  
+- Retrieval and updating of stored data  
+
+</details>
+
+<details>
+<summary><strong>Algorithmic Complexity</strong></summary>
+
+- Evidence of non-trivial problem solving  
+- At least one meaningful algorithm (scoring / ranking / filtering)  
+- Processing of real dynamic user data  
+- Clear transformation of input → output logic  
+- Demonstration of algorithm design beyond CRUD operations  
+
+</details>
+
+<details>
+<summary><strong>System Design</strong></summary>
+
+- Clear separation of input, processing, and output  
+- Decomposition into manageable sub-problems  
+- Maintainable and logically structured codebase  
+- User session/state management  
+- System-wide navigation and flow control  
+
+</details>
+
+---
+
+## Design Philosophy
+
+This system prioritises:
+- Structured decision-making over random generation
+- Transparent and explainable outputs
+- Scalable user-driven data processing
+- Maintainable modular architecture
+
+---
+
+## License
+
+MIT License
