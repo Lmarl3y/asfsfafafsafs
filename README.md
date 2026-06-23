@@ -1,8 +1,8 @@
-# __IDEA__
+# **IDEA**
 
 ## NEA Idea Generator, tailored to the user's personal opinions, interests, and talent.
 
-# __FEATURES__
+# **FEATURES**
 
 - High-End Graphical User Interface, hosted online.
 - Login & Signup system with full encryption and security
@@ -13,7 +13,7 @@
 
 ---
 
-# __PAGES__
+# **PAGES**
 
 - Index
 
@@ -47,7 +47,8 @@
   - Filters and narrows down results to the most suitable idea(s)
   - Allows prompts, so results can be refined further by the user
 
-# __CHECKLIST__
+# **CHECKLIST**
+
 - Clear modular design using functions/procedures
 - Appropriate use of classes (OOP where suitable)
 - Use of selection (if / elif / else)
